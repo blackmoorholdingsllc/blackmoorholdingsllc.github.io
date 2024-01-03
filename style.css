@@ -1,0 +1,20 @@
+body {
+    background: black;
+    height: 100vh;
+}
+
+h1, h4, p {
+    color: white;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#tree {
+    max-width: min(70vw, 400px);
+}
